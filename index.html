@@ -6,11 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="content"></div>
-    <script src="/jet.js"></script>
+    <p id="para1">color</p>
+    <button onclick="changeColor('red');">red</button>
+    <button onclick="changeColor('yellow');">yellow</button>
+    <button onclick="changeColor('#2bff00');">green</button>
+    <!--2-->
+
+    <p><br></p>
+    <div id="msg">
+        <div id="text"></div>
+        <div id="close"><button onclick="closeMsg('это магия , детка')">Закрыть</button></div>
+    </div>
+    <button id="open" onclick="textMsg('это магия , детка')">
+        открыть</button>
+
+    <!-- <div id="modal">
+        <p class="modal_text">
+            тут должен быть текст
+        </p>
+        <button onclick="none">
+            закрыть
+        </button>
+    </div>
+    <button id="btn2">
+        открыть
+    </button> -->
+
+    <!--3 -->
+
+    <!-- <div class="color"><b>O</b></div>
+    <button id="butt"> color </button> -->
+    <script src="/klarus.js"></script>
 </body>
 
 </html>
